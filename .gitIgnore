@@ -1,0 +1,57 @@
+# Логи
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Директории
+node_modules/
+dist/
+coverage/
+.nyc_output/
+
+# Кэш
+.cache/
+
+# Переменные окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Операционные системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Конфигурационные файлы (если используете свои настройки)
+config/*.json
+config/*.yaml
+config/*.yml
+
+# Файлы сборки/компиляции
+build/
+out/
+*.tsbuildinfo
+
+# Дополнительно (по необходимости)
+package-lock.json # если используете yarn
+yarn.lock # если используете npm
+pnpm-lock.yaml # если используете pnpm
